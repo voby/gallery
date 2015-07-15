@@ -1,0 +1,21 @@
+{
+  "name": "gallery",
+  "scripts": {
+    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-basse dist"
+  },
+  "author": "voby",
+  "devDependencies": {
+    "css-loader": "^0.15.2",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "node-libs-browser": "^0.5.2",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.12.3",
+    "stylus-loader": "^1.2.1",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "angular": "^1.4.2",
+    "angular-resource": "^1.4.2"
+  }
+}
